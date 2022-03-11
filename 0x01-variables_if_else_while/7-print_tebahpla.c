@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int letter:
+	int letter;
 
 	/* prints alphabet in lowercase */
 	letter = 'z'
