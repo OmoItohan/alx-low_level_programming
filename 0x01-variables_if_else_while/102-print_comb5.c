@@ -19,7 +19,7 @@ int main(void)
 			while (k < 58)
 			{
 				if (i == k)
-					l = J + 1;
+					l = j + 1;
 				else
 					l = 48;
 				while (l < 58)
@@ -35,11 +35,11 @@ int main(void)
 					putchar(' ');
 					l++;
 				}
-				k++
+				k++;
 			}
-			j++
+			j++;
 		}
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
