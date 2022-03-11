@@ -7,15 +7,11 @@
  */
 int main(void)
 {
-	int letter;
-
-	/* prints alphabet in lowercase */
-	letter = 'z'
-	while (letter >= 'a')
-	{
-		putchar(letter);
-		letter--;
-	}
+char c;
+for (c = 'z'; c >= 'a'; c--)
+}
+	putchar(c);
+}
 
 	putchar('\n')
 	return (0);
