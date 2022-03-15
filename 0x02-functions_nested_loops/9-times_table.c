@@ -13,7 +13,7 @@ void times_tables(void)
 	{ 
 		for (j = 0; j <= 9; j++)
 		{
-			n = i * J;
+			n = i * j;
 
 			if ((n / 10) == 0)
 			{
