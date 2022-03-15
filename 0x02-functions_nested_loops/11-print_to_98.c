@@ -1,13 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * prints_to_98 - prints all natural numbers from n to 98
+ * print_to_98 - prints all natural numbers from n to 98
  *
  * @n: starting point
  *
  * Return: returns nothing
  *
- */void print_to_98(int n)
+ */
+void print_to_98(int n)
 {
 	if (n <= 98)
 	{
