@@ -8,12 +8,13 @@
  */
 int main(void)
 {
-char text[7] = "_putchar";
-int i;
-for (i = o; i < 7; i++)
-{
-_putchar(text[i]);
-}
+	char _putchar[7] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	unsigned int c;
+
+	for (c = o; c < sizeof(_putchar); c++)
+	{
+	_putchar(_putchar[c]);
+	}
 _putchar('\n');
 return (0);
 }
