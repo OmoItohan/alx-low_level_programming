@@ -2,13 +2,13 @@
 /**
  * more_numbers - prints 0 - 14
  *
- * Return: void
+ * Return: void.
  */
 void more_numbers(void)
 {
 	int i, j;
 
-	i = o;
+	i = 0;
 	while (i < 10)
 	{
 		j = 0;
